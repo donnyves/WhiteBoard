@@ -23,6 +23,7 @@ namespace StringToCamelCase
 
                     sentence = sentence.ToLower();
 
+                    // This is a comment.
                     for (int i = 0; i < sentence.Length; i++)
                     {
                         while (sentence[i] == ' ')
