@@ -21,7 +21,7 @@ namespace ClockAngle
         static void Main(string[] args)
         {
             Console.WriteLine("We are going to figure out clockhand angles for a clock.");
-            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("---------------------------------------------------------");
             Console.WriteLine();
             Console.Write("Write an integer (1-12) for the hour hand on a clock: ");
             int hour = Convert.ToInt32(Console.ReadLine());
