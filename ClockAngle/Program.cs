@@ -8,7 +8,7 @@ namespace ClockAngle
 {
     class Program
     {
-        // find the angle between the two hands on a clock at any time
+        // Find the angle between the two hands on a clock at any time.
         public static double AngleDiff(int hour, int minute)
         {
             double minuteAngle = (double)minute / 60.0 * 360.0;
