@@ -20,7 +20,17 @@ namespace ClockAngle
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(AngleDiff (12,45));
+            Console.WriteLine("We are going to figure out clockhand angles for a clock.");
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine();
+            Console.Write("Write an integer (1-12) for the hour hand on a clock: ");
+            int hour = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Write an integer (1-59) for the minute hand on a clock: ");
+            int minute = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine(AngleDiff (hour,minute));
             Console.ReadLine();
         }
     }
