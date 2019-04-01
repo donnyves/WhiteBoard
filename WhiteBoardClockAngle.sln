@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctCharCount", "Distin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadTwiceAgeSon", "DadTwiceAgeSon\DadTwiceAgeSon.csproj", "{3A4C72A4-8DA9-44B9-8ADC-112E0EF62E28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrabbleDictionary", "ScrabbleDictionary\ScrabbleDictionary.csproj", "{4BE4ADDB-4995-47FA-BAA5-FEDED971AFD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3A4C72A4-8DA9-44B9-8ADC-112E0EF62E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A4C72A4-8DA9-44B9-8ADC-112E0EF62E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A4C72A4-8DA9-44B9-8ADC-112E0EF62E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE4ADDB-4995-47FA-BAA5-FEDED971AFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE4ADDB-4995-47FA-BAA5-FEDED971AFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE4ADDB-4995-47FA-BAA5-FEDED971AFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE4ADDB-4995-47FA-BAA5-FEDED971AFD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
